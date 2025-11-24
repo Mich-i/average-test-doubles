@@ -1,0 +1,5 @@
+import { expect } from "@std/expect";
+
+Deno.test("placeholder test", () => {
+  expect(1 + 1).toBe(2);
+});
